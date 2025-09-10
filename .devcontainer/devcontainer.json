@@ -1,0 +1,14 @@
+{
+	"name": "Learning Java Spring Boot",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"redhat.java",
+				"vscjava.vscode-java-debug"
+			]
+		}
+	},
+}
