@@ -7,6 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class FunRestController {
   @GetMapping("/")
   public String sayHello() {
-    return "Hello, World from Spring Boot demo!";
+    return "Hello, World from Dev Tools Demo21!";
+  }
+
+  @GetMapping("/workout")
+  public String getDailyWorkout() {
+    return "Run a hard 5k!";
   }
 }
