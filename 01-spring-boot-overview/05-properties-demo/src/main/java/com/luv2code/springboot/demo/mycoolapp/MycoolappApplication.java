@@ -9,7 +9,7 @@ public class MycoolappApplication {
     public static void main(String[] args) {
         SpringApplication.run(MycoolappApplication.class, args);
 
-        System.out.println("Hello World!5");
+        System.out.println("Hello World!5 properties demo");
     }
 
 }

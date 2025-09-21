@@ -3,8 +3,6 @@ package com.luv2code.springboot.demo.mycoolapp.rest;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.RequestParam;
-
 
 @RestController
 public class FunRestController {
@@ -26,6 +24,6 @@ public class FunRestController {
 
   @GetMapping("/teaminfo")
   public String getTeamInfo() {
-      return "Coach:" + coachName + ", Team name: " + teamName;
+    return "Coach:" + coachName + ", Team name: " + teamName;
   }
 }
