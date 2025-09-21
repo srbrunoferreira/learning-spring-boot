@@ -12,7 +12,8 @@
 				"redhat.java",
 				"vscjava.vscode-java-debug",
 				"vmware.vscode-spring-boot",
-				"redhat.vscode-xml"
+				"redhat.vscode-xml",
+				"vscjava.vscode-java-dependency "
 			]
 		}
 	}
